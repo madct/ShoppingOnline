@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+*{list-style:none; margin:0;padding:0;}
+body{    
+     background-image: url(../imgs/htmlBackground.gif);    
+   
+}
+
+#part1{width:auto;height:90px;background-color:#f5f5f5; font-size:12px;}
+#top{ margin-left:auto; margin-right:auto; width:1260px; height:36px;margin-bottom:3px;}
+#topLeft{text-align:center;float:left;line-height:36px;width:200px;padding-left:50px; }
+#topLeft1{float:left;line-height:36px;width:auto; max-width:140px; margin-right:10px;}
+#topLeft1:hover{cursor:pointer;}
+#topLeft2{float:left;line-height:36px;width:50px;}
+#topLeft2:hover{color:#F00;cursor:pointer;}
+#topRight{ text-align:center;float:right;width:230px; line-height:36px;margin-left:500px; } 
+#topRight ul{display:block; width:332px; line-height:36px;}
+#topRight ul li{ margin:0; display:block; width:78px; line-height:36px; padding:0; float:left; margin-left:5px}
+#topRight ul li:hover{color:#F00;cursor:pointer;}
+#pictrue{width:auto;height:50px;min-width:1260px;}
+
+#part2{overflow:hidden; margin-top:35px;height:130px; width:1260px; margin-left:auto; margin-right:auto; }
+#logo{width:200px;height:100px; float:left; margin-right:35px; margin-left:140px;}
+#searchAll{float:left;height:130px;width:625px; }
+#txt{text-align:center;float:top;width:60px; line-height:40px;font-size:20px;background-color:#ff5400;color:#FFF;font-weight:bold;}
+#txt:hover{cursor:pointer;}
+#logo:hover{cursor:pointer;}
+
+.queryText{font-size:20px;overflow:hidden;width:625px;height:49px; border-style:solid; border-width:3px; border-color:#ff5400; padding-left:12px;}
+#button{text-align:center; float:left; margin-top:40px;width:140px;line-height:49px;background-color:#ff5400;font-weight:bold;color:#FFF; font-size:24px;}
+#button:hover{background-color:#f52b00;cursor:pointer;}
+
+#menu{ margin-top:1px;overflow:hidden; width:1260px;height:40px; margin-left:auto; margin-right:auto;}
+#menu ul{display:block; width:965px;line-height:40px;margin-left:auto; margin-right:auto;}
+#menu ul li{text-align:center;line-height:40px; float:left;}
+.menu{margin-right:9px; margin-left:9px;width:82px;}
+.menu:hover{cursor:pointer;background:#ff5400;color:#FFF; font-weight:bold;}
+#line{width:1262px;height:3px; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px; background-color:#f52b00;}
+
+#part3{margin-left:auto; margin-right:auto; margin-top:30px; width:1260px; height:400px; line-height:400px;}
+#goodsAll{width:370px; height:400px; float:left; margin-left:25px; margin-right:25px; margin-bottom:30px; }
+#goods{width:370px; height:360px; float:left;background-image:url(../imgs/goodsInfo.jpg) }
+#image{width:148px; height:198px; float:left; margin-left:2px; margin-top:2px;}
+#info{float:left;width:220px;height:200px; margin-top:10px;}
+.goodsInfo{margin-top:5px; margin-bottom:5px; margin-left:10px;  width:210px;height:40px;line-height:20px;float:left }
+#about{overflow:auto; text-indent:2em;float:left;width:355px; height:130px; line-height:23px; margin-top:5px;}
+
+#buy{width:370px;height:40px; float:left; margin-left:auto; margin-right:auto; background-color:#F0F0F0;}
+.buy{width:100px;line-height:40px; float:left; text-align:right;}
+.buy1{width:25px;line-height:40px; float:left; text-align:center;}
+.num{font-weight:bold;width:40px;height:30px; float:left;text-align:center;background-color:#fff; margin-bottom: 5px;margin-top: 5px; margin-left:5px;border-style:solid; border-width:2px; border-color:#3f90eb;}
+#button1{width:50px;line-height:28px;float:left; border-style:solid;border-width: 0px;}
+#button2{width:100px;line-height:28px; float:left;border-style:solid;border-width: 0px;}
+.button{text-align:center;margin-bottom:6px; margin-top:6px;margin-left:20px; color:#FFF; font-weight:bold; background-color:#ff5400;}
+.button:hover{cursor:pointer;background:#f52b00;}
+
+#bottom{width:1260px;height:100px;float:left;font-size:14px; text-align:center;color:#666;margin-top:150px;}
+#bottomLine{width:1260px;height:2px; margin-bottom:10px; background-color:#666; }
+#statement{line-height:20px; width:1220px; height:80;margin-left:auto; margin-right:auto}
+
+/*购物车页面的CSS*/
+#shopCart{font-size:36px; color:#ff5400; font-weight:bold; text-align:center; width:930px; height:50px;  margin-left:auto; margin-right:auto; margin-top:30px;}
+#cartHead{font-size:26px; width:1010px;height:40px; margin-left:auto; margin-right:auto; margin-top:10px; background-color:#ECECEC}
+#cartHead ul{display:block; width:1010px;line-height:40px;}
+#cartHead ul li{text-align:center;line-height:40px; float:left;overflow:hidden;}
+.cartHead{margin-right:10px; margin-left:10px;width:170px;}
+
+.bigCartBook input{text-align:center;line-height:38px; float:left;height:40px;}
+.bigCartBook{font-size:18px; width:1010px;height:40px; margin-left:auto; margin-right:auto; margin-top:5px; background-color:#F5F5F5; border-style:solid; border-width:1px; border-color:#333}
+.bigCartBook ul{display:block; width:1010px;line-height:40px;}
+.bigCartBook ul li{text-align:center;line-height:40px; float:left;}
+.cartBook{margin-right:11px; margin-left:11px;width:170px;}
+
+.alertButton{font-size:20px;color:#FFF; font-weight:bold; background-color:#ff5400;margin-right:11px; margin-left:11px;width:60px;line-height:25px;height:25px;border-style:solid;border-width: 0px;}
+.alertButton:hover{cursor:pointer;background:#f52b00;}
+
+#jiesuan{font-size:20px; width:1050px; height:50px;line-height:50px; margin-top:10px; margin-bottom:10px; margin-left:auto; margin-right:auto;}
+
+#zongji{font-size:20px; width:250px;height:50px; float:left; border-style:solid; border-width:0 0 3px 0; border-color:#ff5400; text-align:center;}
+#zongji input{width:50px;height:30px; text-align:center;border-style:solid; border-width:0; font-size:20px;}
+
+#add{font-size:16px; width:150px;height:30px; line-height:30px; float:left; border-style:solid; border-width:0 0 3px 0; border-color:#ff5400; text-align:center; margin-top:20px;}
+#buttonJieSuan{text-align:center; float:left;width:140px;line-height:40px;background-color:#ff5400;font-weight:bold;color:#FFF; font-size:24px; margin-bottom:5px;; margin-top:5px; margin-left:50px;}
+#buttonJieSuan:hover{background-color:#f52b00;cursor:pointer;}
+
+#clear{text-align:center; float:left;width:140px;line-height:40px;background-color:#ff5400;font-weight:bold;color:#FFF; font-size:24px; margin-bottom:5px;; margin-top:5px; margin-right:50px;}
+#clear:hover{background-color:#f52b00;cursor:pointer;}
+
+
+/*-以下是订单页面的css-*/
+#orderHead{width:1010px; height:50px; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px; background-color:#ECECEC; font-size:18px; text-align:center;border-style:solid; border-width:1px 0 0 1px;}
+.orderHead{font-size:26px;font-weight:bold;width:201px;height:50px; float:left; border-style:solid; border-width:0 1px 1px 0; line-height:50px;}
+
+#order{width:809px;float:left; font-size:18px; text-align:center;}
+.orderInfo{width:201px;float:left; border-style:solid; border-width:1px 1px 0 0; line-height:20px; height:40px}
+#orderNum{width:200px; float:left;border-style:solid; border-width:1px 1px 0 1px;}
+#orderMoney{width:605px; float:left; border-style:solid; border-width:1px 1px 0 0; line-height:40px;}
+.order3Info{width:606px; height:40px; float:left;  line-height:40px;}
+.orderTime{width:200px; float:right; border-style:solid; border-width:1px 1px 0 0; }
+#orderAll{ background-color:#ECECEC;width:1010px;  margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px; font-size:18px; text-align:center;border-style:solid; border-width:0 0 1px 0;}

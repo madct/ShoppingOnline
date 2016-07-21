@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px;}
+
+#top{width:1210px; height:90px; margin-left:auto; margin-right:auto; position:relative;}
+#logo{width:110px; height:55px; float:left;position:absolute;top:0; bottom:0;margin:auto;}
+#logo:hover{ cursor: pointer;}
+#msg{width:132px; height:55px; float:right; line-height:90px;font-size:12px;}
+#msg:hover{cursor:pointer;color:#F00;}
+#center{ width:auto; height:650px; background-image:url(../imgs/loginBackgroundImage.jpg);  padding-top:10px;}
+#login{width:330px; height:340px; background-color:#FFF; margin-top:100px;padding-top:20px; background:  rgba(255,255,255,0.95); float:right;}
+.div{ width:280px; height:42px; margin-left:auto; margin-right:auto;  }
+.input{ width:237px; height:40px; border-style:solid; border-width:1px; border-color:#CCC; float:left; font-size:15px;text-indent:10px;}
+#loginbutton{width:280px; height:42px; background-color:#ff5400; border-width:0px; font-size:22px; color:#FFF; }
+#loginbutton:hover{cursor:pointer; background-color:#f52b00;}
+.span{ padding-top:16px; font-size:12px}
+.span:hover{cursor:pointer; color:#F00;}
+
+#info{line-height:24px;font-size:18px;height:24px;width:200px;margin-bottom:10px;text-align:center;font-size:14px; color:#ff5400; margin-left:auto; margin-right:auto;}
+#error{border-style:solid;border-width:1px;border-color:#ff5400;display:none;}
+
+#bottom{width:1300px; height:100px; margin-left:auto; margin-right:auto; margin-top:50px; font-size:14px; text-align:center;color:#666}
+#bottomLine{width:1300px;height:2px; margin-left:auto; margin-right:auto; margin-bottom:10px; background-color:#666; }

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>signCheckServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.signCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>signUpServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.signUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginCheckServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.loginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getIndexDataServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.getIndexDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addShopCartServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.addShopCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shoppingCartServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.shoppingCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>alertShopCartServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.alertShopCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cleanSessionServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.cleanSessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteShopCartServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.deleteShopCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>submitOrderServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.submitOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitCheckServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.SubmitCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getOrderServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.getOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderCheckLoginServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.so.control.orderCheckLoginServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>signCheckServlet</servlet-name>
+    <url-pattern>/signCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>signUpServlet</servlet-name>
+    <url-pattern>/signUp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginCheckServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getIndexDataServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addShopCartServlet</servlet-name>
+    <url-pattern>/addShopCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoppingCartServlet</servlet-name>
+    <url-pattern>/shoppingCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alertShopCartServlet</servlet-name>
+    <url-pattern>/alertShopCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cleanSessionServlet</servlet-name>
+    <url-pattern>/cleanSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteShopCartServlet</servlet-name>
+    <url-pattern>/deleteShopCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>submitOrderServlet</servlet-name>
+    <url-pattern>/submitOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitCheckServlet</servlet-name>
+    <url-pattern>/SubmitCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getOrderServlet</servlet-name>
+    <url-pattern>/getOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderCheckLoginServlet</servlet-name>
+    <url-pattern>/orderCheckLogin</url-pattern>
+  </servlet-mapping>
+	
+	<resource-ref>  
+		<res-ref-name>jdbc/ShopOnline</res-ref-name>  
+		<res-type>javax.sql.DataSource</res-type>  
+		<res-auth>Container</res-auth>  
+	 </resource-ref> 
+</web-app>
